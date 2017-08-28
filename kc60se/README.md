@@ -1,15 +1,15 @@
 KC60 SE keyboard firmware
 ========================
 
-KC60 SE is a common 60% PCB.
-A clone of GH60 with minor differences. 
-It can be set up as ANSI, ISO and HHKB
+ KC60 SE is a common 60% PCB.
+ A clone of GH60 with minor differences. 
+ It can be set up as ANSI, ISO and HHKB
 
-Hardware Supported: KC60 SE pcb
-Keyboard Maintainer: Blake Lewis
-[Available:](https://www.aliexpress.com/store/product/Free-shipping-GH60-PCB-KC60-SE-Fully-Programmable-For-DIY-Mechanical-Keyboard-Poker-Faceu-HHKB-Support/429151_32799437588.html?spm=2114.12010608.0.0.2995e5c0hNRgMH)
+ Hardware Supported:  KC60 SE pcb
+ Keyboard Maintainer: Blake Lewis
+ [Available on Aliexpress](https://www.aliexpress.com/store/product/Free-shipping-GH60-PCB-KC60-SE-Fully-Programmable-For-DIY-Mechanical-Keyboard-Poker-Faceu-HHKB-Support/429151_32799437588.html?spm=2114.12010608.0.0.2995e5c0hNRgMH)
 
-See [build environment setup](https://docs.qmk.fm/build_environment_setup.html) then the [make instructions](https://docs.qmk.fm/make_instructions.html) for more information.
+ See [build environment setup](https://docs.qmk.fm/build_environment_setup.html) then [make instructions](https://docs.qmk.fm/make_instructions.html) for more information.
 
 ## KC60 SE Information
 
@@ -33,42 +33,42 @@ See [build environment setup](https://docs.qmk.fm/build_environment_setup.html) 
   ### HHKB/Querty - default layer - alt/fn0/space/gui/alt
 ```
      ,--------------------------------------------------------------------------.
-     | Esc|  1 |  2 |  3 |  4 |  5 |  6 |  7 |  8 |  9 |  0 |  - |  = |  \ |  ` |
+     | esc|  1 |  2 |  3 |  4 |  5 |  6 |  7 |  8 |  9 |  0 |  - |  = |  \ |  ` |
      |----=---------------------------------------------------------------------+
-     | Tab   |  Q |  W |  E |  R |  T |  Y |  U |  I |  O |  P |  [ |  ] | Bksp |
+     | tab   |  Q |  W |  E |  R |  T |  Y |  U |  I |  O |  P |  [ |  ] | bksp |
      |--------------------------------------------------------------------------+
-     | Ctrl   |  A |  S |  D |  F |  G |  H |  J |  K |  L |  ; |  ' |  Enter   |
+     | ctrl   |  A |  S |  D |  F |  G |  H |  J |  K |  L |  ; |  ' |  enter   |
      |--------------------------------------------------------------------------+
-     | Shift    |  Z |  X |  C |  V |  B |  N |  M |  , |  . |  / | RShift | Fn0|
+     | lshift   |  Z |  X |  C |  V |  B |  N |  M |  , |  . |  / | rshift | fn0|
      |--------------------------------------------------------------------------+
-             |LAlt| Fn0  |               Space              | RGui  |RAlt|
+             |lalt| fn0  |               space              | rgui  |ralt|
              `-----------------------------------------------------------'
 ```
   ### HHKB/Querty - layer 1 - Q/W are backlight switches
 
 ```
      ,--------------------------------------------------------------------------.
-     |    | F1 | F2 | F3 | F4 | F5 | F6 | F7 | F8 | F9 | F10| F11| F12|    | Ins|
+     |    | f1 | f2 | f3 | f4 | f5 | f6 | f7 | f8 | f9 | f10| f11| f12|    | ins|
      |--------------------------------------------------------------------------+
-     | CAPS |BlOn|BlUp|    |    |    |    |    | Psc|Slck|Paus| Up |    |  Del  |
+     | caps |blon|blup|    |    |    |    |    | psc|slck|paus| up |    |  del  |
      |--------------------------------------------------------------------------+
-     |       |Vol-|Vol+|Mute|    |    | *  | /  |Home|PgUp|Left|Rite|           |
+     |       |vol-|vol+|mute|    |    | *  | /  |home|pgup|left|rite| penter    |
      |--------------------------------------------------------------------------+
-     |         |Prev|Play|Next|    |    | +  | -  |End |PgDn|Down|         |    |
+     |         |mprv|mply|mnxt|    |    | +  | -  |end |pgdn|down|         |    |
      |--------------------------------------------------------------------------+
-             |    |      |                                 | Stop |    |
+             |    |      |                                 | mstop|    |
              `---------------------------------------------------------'
 ``` 
   Features to add:
-  *   DISABLE/ENABLE RGUI key for gaming. Use MAGIC_NO_GU/MAGIC_UNNO_GUII in toggle function?
-  *   Alternately override BOOTMAGIC to use SPACE + RGUI instead of SPACE + LGUI
+  *   Disable/Enable rgui key for gaming. Use MAGIC_NO_GU/MAGIC_UNNO_GUII in toggle function?
+  *   Alternately override BOOTMAGIC to use space + rgui instead of space + lgui
   *   Backlight patterns?
   *   Backlight indicates layer? not much to do with one pin to rule them all.
    
    
-  ![default layout](http://i.imgur.com/Y2xLF59.png)
+  [default layout](http://i.imgur.com/Y2xLF59.png)
   
-  ![KC60 SE backside](http://i.imgur.com/yrtG6N0.png) showing the pads to jump if magicboot is borked.
+  [KC60 SE backside](http://i.imgur.com/yrtG6N0.png) showing the pads to jump if magicboot is borked.
   
  
  
