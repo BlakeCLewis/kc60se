@@ -1,4 +1,4 @@
-KC60 SE keyboard firmware
+QMK Firmware for KC60 SE keyboard pcb
 ========================
 
  KC60 SE is a common 60% PCB.
