@@ -15,7 +15,7 @@ KC60 SE keyboard firmware
 
   Column pin configuration
   * col: 0   1   2   3   4   5   6   7   8   9   10  11  12  13
-  * pin: F0  F1  E6  C7  C6  B6  D4  B1  B7  B5  B4  D7  D6  B3  (Rev.C)
+  * pin: F0  F1  E6  C7  C6  B6  D4  B1  B7  B5  B4  D7  D6  B3
    
   Row pin configuration
   * row: 0   1   2   3   4
@@ -26,9 +26,9 @@ KC60 SE keyboard firmware
   * F5 Backlight LEDs (all but Capslock)
 
   To enter into the bootloader:
-  *   While hold down 'Space' and 'B', plug in USB cable and continue to hold for 8 seconds.
-  *   'lsusb' should report 'ATMEL Inc.' instead of 'feed 6060'
-  *   If for some reason that doesn't work(you messed up the keymap bad enough) there are [pads](http://i.imgur.com/i1SU8Fn.jpg) you can short out on the pcb:
+  * While hold down 'Space' and 'B', plug in USB cable and continue to hold for 8 seconds.
+  * 'lsusb' should report 'ATMEL Inc.' instead of 'feed 6060'
+  * If for some reason that doesn't work(you messed up the keymap bad enough) there are [pads](http://i.imgur.com/i1SU8Fn.jpg) you can short out on the pcb:
 
   ### HHKB/Querty - default layer - alt/fn0/space/gui/alt
 ```
