@@ -1,15 +1,15 @@
 KC60 SE keyboard firmware
 ========================
 
-KC60 SE is a common 60% PCB. Clone of GH60 with some minor differences.
- it can be set up as ANSI, ISO and HHKB wiring
+KC60 SE is a common 60% PCB.
+A clone of GH60 with minor differences. 
+It can be set up as ANSI, ISO and HHKB
 
 Hardware Supported: KC60 SE pcb
 [Available:](https://www.aliexpress.com/store/product/Free-shipping-GH60-PCB-KC60-SE-Fully-Programmable-For-DIY-Mechanical-Keyboard-Poker-Faceu-HHKB-Support/429151_32799437588.html?spm=2114.12010608.0.0.2995e5c0hNRgMH)
 Keyboard Maintainer: Blake Lewis
 
 See [build environment setup](https://docs.qmk.fm/build_environment_setup.html) then the [make instructions](https://docs.qmk.fm/make_instructions.html) for more information.
- [KC60 SE backside](http://imgur.com/a/tBV1g) showing the pads to jump if magicboot is borked.
 
 ## KC60 SE Hardware Information
 
@@ -68,6 +68,7 @@ See [build environment setup](https://docs.qmk.fm/build_environment_setup.html) 
    
   [default layout](http://i.imgur.com/Y2xLF59.png)
   
+  [KC60 SE backside](http://imgur.com/a/tBV1g) showing the pads to jump if magicboot is borked.
   
  
  
