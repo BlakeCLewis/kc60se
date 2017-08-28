@@ -1,0 +1,23 @@
+#KEYMAP: is the name of the layout
+#     tmk filename: keymap_hhkblake.c; 
+
+KEYMAP=hhkblake
+
+PATH=~/arduino/hardware/tools/avr/bin:$PATH
+export PATH KEYMAP
+
+cd ./keyboards/kc60se
+echo ""
+echo " KEYMAP is '$KEYMAP'"
+echo " run 'make'"
+echo "     -- if no errors, you can burn it"
+echo "     -- No reset button on the 'KC60 SE'"
+echo " disconnect USB from keyboard"
+echo " press and hold 'space' and 'b' while connecting USB, hold for 6 seconds"
+echo "      -- keyboard cannot type, try it"
+echo "      -- You need a second keyboard"
+echo " run 'lsusb'"
+echo "      -- lsusb should return 'Atmel Crop.' instead of 'feed:6060'"
+echo "      -- to burn "
+echo " run 'sudo make dfu'"
+echo ""
