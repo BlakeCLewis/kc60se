@@ -25,7 +25,7 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
 #define DEVICE_VER   0x0001
 #define MANUFACTURER    China
 #define PRODUCT         KC60 SE
-#define DESCRIPTION     q.m.k. keyboard firmware for KC60 SE
+#define DESCRIPTION     q.m.k. keyboard firmware for KC60 SE pcb
 
 #define MATRIX_ROWS 5
 #define MATRIX_COLS 14
