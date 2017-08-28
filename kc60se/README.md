@@ -13,21 +13,19 @@ See [build environment setup](https://docs.qmk.fm/build_environment_setup.html) 
 
 ## KC60 SE Hardware Information
 
-  /* Column pin configuration
+  Column pin configuration
   * col: 0   1   2   3   4   5   6   7   8   9   10  11  12  13
   * pin: F0  F1  E6  C7  C6  B6  D4  B1  B7  B5  B4  D7  D6  B3  (Rev.C)
-  */
    
-  /* Row pin configuration
+  Row pin configuration
   * row: 0   1   2   3   4
   * pin: D0  D1  D2  D3  D5
-  */
 
-  /* 
+  LED pins
   * B2 Capslock LED
   * F5 Backlight LEDs (all but Capslock)
 
-  * To enter into the bootloader:
+  To enter into the bootloader:
   *   While hold down 'Space' and 'B', plug in USB cable and continue to hold for 8 seconds.
   *   'lsusb' should report 'ATMEL Inc.' instead of 'feed 6060'
   *   If for some reason that doesn't work(you messed up the keymap bad enough) there are pads you can short out on the pcb:
