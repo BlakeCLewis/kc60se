@@ -68,7 +68,7 @@ See [build environment setup](https://docs.qmk.fm/build_environment_setup.html) 
    
   ![default layout](http://i.imgur.com/Y2xLF59.png)
   
-  ![KC60 SE backside](http://imgur.com/a/tBV1g) showing the pads to jump if magicboot is borked.
+  ![KC60 SE backside](http://i.imgur.com/yrtG6N0.png) showing the pads to jump if magicboot is borked.
   
  
  
