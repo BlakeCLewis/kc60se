@@ -57,7 +57,6 @@ BOOTMAGIC_ENABLE     = yes  # Virtual DIP switch configuration(+1000) needed for
 EXTRAKEY_ENABLE      = yes  # Enable for MS Windows Audio (and other) control, Windows does not use KC_VOL* KC_MUTE(+450)
 KEYBOARD_LOCK_ENABLE = yes  # Allow locking of keyboard via magic key
 BACKLIGHT_ENABLE     = yes  # Enable keyboard backlight functionality
-
 # Do not enable both BACKLIGHT_ENABLE and SLEEP_LED_ENABLE, they use the same timer
 SLEEP_LED_ENABLE     = no   # Breathing sleep LED during USB suspend
 BLUETOOTH_ENABLE     = no   # Bluetooth with the Adafruit EZ-Key HID
