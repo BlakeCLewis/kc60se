@@ -26,9 +26,9 @@ QMK Firmware for KC60 SE keyboard pcb
   * F5 Backlight LEDs (all but Capslock)
 
   To enter into the bootloader:
-  * While hold down 'Space' and 'B', plug in USB cable and continue to hold for 8 seconds.
+  * While holding down 'Space' and 'B', plug in USB cable and continue to hold for 8 seconds.
   * 'lsusb' should report 'ATMEL Inc.' instead of 'feed 6060'
-  * If for some reason that doesn't work(you messed up the keymap bad enough) there are [pads](http://i.imgur.com/i1SU8Fn.jpg) you can short out on the pcb:
+  * If for some reason that doesn't work (bootmagic disabled) there are [pads](http://i.imgur.com/i1SU8Fn.jpg) you can momentary connect on the pcb:
 
   ### HHKB/Querty - default layer - alt/fn0/space/gui/alt
 ```
