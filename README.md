@@ -5,7 +5,7 @@ QMK Firmware for KC60 SE keyboard pcb
  A clone of GH60 with minor differences. 
  It can be set up as ANSI, ISO and HHKB
 
-  * Hardware Supported:  KC60 SE pcb
+  * Hardware Supported:  KC60 SE pcb by NPKC
   * Keyboard Maintainer: Blake Lewis
   * [KC60 SE is available on Aliexpress](https://www.aliexpress.com/store/product/Free-shipping-GH60-PCB-KC60-SE-Fully-Programmable-For-DIY-Mechanical-Keyboard-Poker-Faceu-HHKB-Support/429151_32799437588.html?spm=2114.12010608.0.0.2995e5c0hNRgMH)
 
