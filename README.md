@@ -23,7 +23,7 @@ QMK Firmware for KC60 SE keyboard pcb
 
   LED pins
   * B2 Capslock LED
-  * F5 Backlight LEDs (all but Capslock)
+  * F5 Backlight LEDs
 
   To enter into the bootloader:
   * While holding down 'Space' and 'B', plug in USB cable and continue to hold for 8 seconds.
@@ -44,7 +44,7 @@ QMK Firmware for KC60 SE keyboard pcb
              |lalt| fn0  |               space              | rgui  |ralt|
              `-----------------------------------------------------------'
 ```
-  ### HHKB/Querty - layer 1 - Q/W are backlight switches
+  ### HHKB/Querty - layer 1 - Q/W are backlight codes
 
 ```
      ,--------------------------------------------------------------------------.
@@ -64,7 +64,14 @@ QMK Firmware for KC60 SE keyboard pcb
   *   Alternately override BOOTMAGIC to use space + rgui instead of space + lgui
   *   Backlight patterns?
   *   Backlight indicates layer? not much to do with one pin to rule them all.
-   
+  * 2 4 6
+    : : :
+    1 3 5  
+  * Momentary jump 5 - 6 to enter bootloader mode
+  * on KC60
+  * * 1 - F5 (square pad)
+  * * 3 - 5V
+  * * 4 - GND
    
   [default layout](http://i.imgur.com/Y2xLF59.png)
   
