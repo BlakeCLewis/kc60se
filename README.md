@@ -70,10 +70,10 @@ QMK Firmware for KC60 SE keyboard pcb
   * Backlight patterns?
   * Backlight indicates layer? not much to do with one pin to rule them all.
   * 6 pin header next to Atmega32u4 
-    ```
+    [```
     2 4 6
     : : :
-    1 3 5
+    1 3 5](http://i.imgur.com/i1SU8Fn.jpg)
 
     1 - B3 (square pad)
     2 - VCC
