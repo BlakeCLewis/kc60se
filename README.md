@@ -17,17 +17,20 @@ QMK Firmware for KC60 SE keyboard pcb
   * or ```git clone https://github.com/BlakeCLewis/kc60se.git .```
 
 ## KC60 SE Information
- Column pin configuration
+ Column pin configuration:
   * col 0-13
   * pin: F0 F1 E6 C7 C6 B6 D4 B1 B7 B5 B4 D7 D6 B3
    
- Row pin configuration
+ Row pin configuration:
   * row 0-4
   * pin: D0 D1 D2 D3 D5
 
- LED pins
+ LED pins (found these with Ohm meter):
   * B2 Capslock LED
   * F5 Backlight LEDs
+
+ Unused pins (I can't find anthing connected to these pins):
+  * B0 F4 F6 F7 E2
 
  Header, 6 pins next to the Atmega32u4:
 
@@ -45,6 +48,8 @@ QMK Firmware for KC60 SE keyboard pcb
   5 - Reset
   6 - Ground
   ```
+  I wonder why B1 &amp; B3 are available here. I think it would unused pins. I understand why B2 is backlight LED is available, but why the 2 column pins?
+
 
  Enter bootloader:
   * unplug keyboard
