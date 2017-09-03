@@ -31,9 +31,24 @@ QMK Firmware for KC60 SE keyboard pcb
   * F5 Backlight LEDs
 
   To enter into the bootloader:
-  * While holding down 'Space' and 'B', plug in USB cable and continue to hold for 8 seconds.
-  * 'lsusb' should report 'ATMEL Inc.' instead of 'feed 6060'
-  * If for some reason that doesn't work (bootmagic disabled) there are [pads](https://i.imgur.com/SGmCW3h.jpg) you can momentary connect on the pcb:
+  * While holding down 'Space' and 'B', plug in USB cable and continue to hold for 8 seconds;
+  * 'lsusb' should report 'ATMEL Inc.' instead of 'feed 6060';
+  * If for some reason that doesn't work momentary jump pads 5 &amp; 6 to enter bootloader;
+  * 6 pin header next to Atmega32u4
+    ![:::](https://i.imgur.com/SGmCW3h.jpg)
+    ```
+    2 4 6
+    : : :
+    1 3 5
+    ```
+    ```
+    1 - B3 (square pad)
+    2 - VCC
+    3 - B1
+    4 - B2
+    5 - Reset
+    6 - Ground
+    ```
 
   ### HHKB/Querty - default layer - alt/fn0/space/gui/alt
 ```
@@ -69,22 +84,6 @@ QMK Firmware for KC60 SE keyboard pcb
   * Alternately override BOOTMAGIC to use space + rgui instead of space + lgui
   * Backlight patterns?
   * Backlight indicates layer? not much to do with one pin to rule them all.
-  * 6 pin header next to Atmega32u4 
-    ```
-    2 4 6
-    : : :
-    1 3 5
-    ```
-    ![:::](https://i.imgur.com/SGmCW3h.jpg)
-    ```
-    1 - B3 (square pad)
-    2 - VCC
-    3 - B1
-    4 - B2
-    5 - Reset
-    6 - Ground
-    ```
-  * Momentary jump 5 - 6 to enter bootloader mode
 
 
   [default layout](http://i.imgur.com/Y2xLF59.png)
