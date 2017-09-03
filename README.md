@@ -35,21 +35,22 @@ QMK Firmware for KC60 SE keyboard pcb
   * while holding down 'Space' &amp; 'B', plug in USB cable and continue to hold for 8 seconds;
   * 'lsusb' should report 'ATMEL Inc.' instead of 'feed 6060';
   * if for some reason that doesn't work, (CAREFUL) while keyboard is plugged in, momentary jump pads 5 &amp; 6 to enter bootloader;
-  * 6 pin header next to Atmega32u4
-    ![:::](https://i.imgur.com/SGmCW3h.jpg)
-    ```
-    2 4 6
-    : : :
-    1 3 5
-    ```
-    ```
-    1 - B3 (square pad)
-    2 - VCC
-    3 - B1
-    4 - B2
-    5 - Reset
-    6 - Ground
-    ```
+
+  6 pin header next to Atmega32u4
+   ![:::](https://i.imgur.com/SGmCW3h.jpg)
+   ```
+   2 4 6
+   : : :
+   1 3 5
+   ```
+   ```
+   1 - B3 (square pad)
+   2 - VCC
+   3 - B1
+   4 - B2
+   5 - Reset
+   6 - Ground
+   ```
 
   ### HHKB/Querty - default layer - alt/fn0/space/gui/alt
 ```
