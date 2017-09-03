@@ -73,8 +73,8 @@ QMK Firmware for KC60 SE keyboard pcb
     ```
     2 4 6
     : : :
-    1 3 5  ![:::](http://i.imgur.com/i1SU8Fn.jpg)
-
+    1 3 5```  ![:::](http://i.imgur.com/i1SU8Fn.jpg)
+    ```
     1 - B3 (square pad)
     2 - VCC
     3 - B1
