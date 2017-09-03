@@ -11,8 +11,13 @@ QMK Firmware for KC60 SE keyboard pcb
 
  See [build environment setup](https://docs.qmk.fm/build_environment_setup.html) and [make instructions](https://docs.qmk.fm/make_instructions.html) for more information.
 
-## KC60 SE Information
+ After setting up the QMK build environment, assuming qmk is in qmk_firmware:
+ * ```cd qmk_firmware/keyboards```
+ * ```mkdir kc60se```
+ * ```cd kc60se```
+ * ```git clone git@github.com:BlakeCLewis/kc60se.git .```
 
+## KC60 SE Information
   Column pin configuration
   * col 0-13
   * pin: F0 F1 E6 C7 C6 B6 D4 B1 B7 B5 B4 D7 D6 B3
