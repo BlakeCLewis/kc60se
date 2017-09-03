@@ -14,12 +14,12 @@ QMK Firmware for KC60 SE keyboard pcb
 ## KC60 SE Information
 
   Column pin configuration
-  * col: 0   1   2   3   4   5   6   7   8   9   10  11  12  13
-  * pin: F0  F1  E6  C7  C6  B6  D4  B1  B7  B5  B4  D7  D6  B3
+  * col 0-13
+  * pin: F0 F1 E6 C7 C6 B6 D4 B1 B7 B5 B4 D7 D6 B3
    
   Row pin configuration
-  * row: 0   1   2   3   4
-  * pin: D0  D1  D2  D3  D5
+  * row 0-4
+  * pin: D0 D1 D2 D3 D5
 
   LED pins
   * B2 Capslock LED
@@ -64,9 +64,11 @@ QMK Firmware for KC60 SE keyboard pcb
   *   Alternately override BOOTMAGIC to use space + rgui instead of space + lgui
   *   Backlight patterns?
   *   Backlight indicates layer? not much to do with one pin to rule them all.
-  * 2 4 6
+  * ```
+    2 4 6
     : : :
-    1 3 5  
+    1 3 5
+    ```  
   * Momentary jump 5 - 6 to enter bootloader mode
   * on KC60
   * * 1 - F5 (square pad)
