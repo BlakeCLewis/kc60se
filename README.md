@@ -57,7 +57,7 @@ QMK Firmware for KC60 SE keyboard pcb
   * LEDs should be off, and keyboard does not work;
   * if for some reason that doesn't work, (CAREFUL) while keyboard is plugged in, momentary jump pads 5 &amp; 6 to enter bootloader;
 
- I found that flashing the firmware through a USB hub did not work consistantly. It ouwld finish with errors. Keybaord make partially work. Plugged into the comupter it worked everytime.
+ I found that flashing the firmware through a USB hub did not work consistantly. Most of the time it would finish with errors, but keyboard may partially work. If plugged into the computer it flashes with no errors.
 
  ### HHKB/Querty - default layer - WKL:
   ```
