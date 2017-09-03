@@ -38,7 +38,7 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
 #define DIODE_DIRECTION COL2ROW
 
 #define DEBOUNCING_DELAY  5
-#       CAPS_LOCK_PIN    B2  #defined in kc60se.h
+//      CAPS_LOCK_PIN    B2  #defined in kc60se.h
 #define BACKLIGHT_PIN    F5
 #define BACKLIGHT_LEVELS  6
 
