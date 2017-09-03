@@ -20,10 +20,6 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
 
 #include "quantum.h"
 
-//kc60se_bl_leds_* are for alternate backlight function
-//inline void kc60se_bl_leds_on(void)   { DDRF |=  (1<<5); PORTF &= ~(1<<5); }
-//inline void kc60se_bl_leds_off(void)  { DDRF &= ~(1<<5); PORTF &= ~(1<<5); }
-
 inline void kc60se_caps_led_on(void)  { DDRB |=  (1<<2); PORTB &= ~(1<<2); }
 inline void kc60se_caps_led_off(void) { DDRB &= ~(1<<2); PORTB &= ~(1<<2); }
 

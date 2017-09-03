@@ -17,9 +17,6 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
 
 #include "kc60se.h"
 
-//extern inline void kc60se_bl_leds_on(void);
-//extern inline void kc60se_bl_leds_off(void);
-
 extern inline void kc60se_caps_led_on(void);
 extern inline void kc60se_caps_led_off(void);
 
