@@ -89,4 +89,4 @@ QMK Firmware for KC60 SE keyboard pcb
 
   [default layout](http://i.imgur.com/Y2xLF59.png)
   
-  [KC60 SE backside](http://i.imgur.com/yrtG6N0.png) showing the pads to jump if magicboot is borked.
+  [KC60 SE backside](http://i.imgur.com/yrtG6N0.png)
