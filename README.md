@@ -86,7 +86,7 @@ QMK Firmware for KC60 SE keyboard pcb
    * Disable/Enable rgui key for gaming. Use MAGIC_NO_GU/MAGIC_UNNO_GUII in toggle function;
    * Alternately override BOOTMAGIC to use space + rgui instead of space + lgui;
    * Backlight  wave, pulse, breath;
-   * ws2812 underside lighting.
+   * RGB ws2812 underside lighting.
 
   [default layout](http://i.imgur.com/Y2xLF59.png)
   
