@@ -47,10 +47,11 @@ QMK Firmware for KC60 SE keyboard pcb
    6 - Ground
    ```
 
-  To enter into the bootloader:
+  To enter bootloader:
   * unplug keyboard
   * while holding down 'Space' &amp; 'B', plug in USB cable and continue to hold for 8 seconds;
   * 'lsusb' should report 'ATMEL Inc.' instead of 'feed 6060';
+  * LEDs should be off, and keyboard does not work;
   * if for some reason that doesn't work, (CAREFUL) while keyboard is plugged in, momentary jump pads 5 &amp; 6 to enter bootloader;
 
   ### HHKB/Querty - default layer - alt/fn0/space/gui/alt
