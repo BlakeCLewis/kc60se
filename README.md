@@ -61,20 +61,25 @@ QMK Firmware for KC60 SE keyboard pcb
 ``` 
   Features to add:
   *   Disable/Enable rgui key for gaming. Use MAGIC_NO_GU/MAGIC_UNNO_GUII in toggle function?
-  *   Alternately override BOOTMAGIC to use space + rgui instead of space + lgui
-  *   Backlight patterns?
-  *   Backlight indicates layer? not much to do with one pin to rule them all.
-  * ```
+  * Alternately override BOOTMAGIC to use space + rgui instead of space + lgui
+  * Backlight patterns?
+  * Backlight indicates layer? not much to do with one pin to rule them all.
+  * 6 pin header next to Atmega32u4 
+    ```
     2 4 6
     : : :
     1 3 5
-    ```  
+
+    1 - B3 (square pad)
+    2 - VCC
+    3 - B1
+    4 - B2
+    5 - Reset
+    6 - Ground
+    ```
   * Momentary jump 5 - 6 to enter bootloader mode
-  * on KC60
-  * * 1 - F5 (square pad)
-  * * 3 - 5V
-  * * 4 - GND
-   
+
+
   [default layout](http://i.imgur.com/Y2xLF59.png)
   
   [KC60 SE backside](http://i.imgur.com/yrtG6N0.png) showing the pads to jump if magicboot is borked.
