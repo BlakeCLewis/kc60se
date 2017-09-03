@@ -48,8 +48,7 @@ QMK Firmware for KC60 SE keyboard pcb
   5 - Reset
   6 - Ground
   ```
-  I wonder why B1 &amp; B3 are available here. I think it would unused pins. I understand why B2 is backlight LED is available, but why the 2 column pins?
-
+  I wonder why B1 &amp; B3 are available here. I think it would unused pins. I understand why B2 backlight LED is available, but why the 2 column pins?
 
  Enter bootloader:
   * unplug keyboard
@@ -57,6 +56,8 @@ QMK Firmware for KC60 SE keyboard pcb
   * 'lsusb' should report 'ATMEL Inc.' instead of 'feed 6060';
   * LEDs should be off, and keyboard does not work;
   * if for some reason that doesn't work, (CAREFUL) while keyboard is plugged in, momentary jump pads 5 &amp; 6 to enter bootloader;
+
+ I found that flashing the firmware through a USB hub did not work consistantly. It ouwld finish with errors. Keybaord make partially work. Plugged into the comupter it worked everytime.
 
  ### HHKB/Querty - default layer - WKL:
   ```
