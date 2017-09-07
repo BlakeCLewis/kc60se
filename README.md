@@ -66,7 +66,7 @@ QMK Firmware for KC60 SE keyboard pcb
  ### Enter bootloader:
   * unplug keyboard
   * while holding down 'Space' &amp; 'B', plug in USB cable and continue to hold for 8 seconds;
-  * 'lsusb' should report 'ATMEL Inc.' instead of 'feed 6060';
+  * 'lsusb' should report something like '03eb:2ff4 Atmel Corp. atmega32u4 DFU bootloader' instead of 'feed 6060';
   * LEDs should be off, and keyboard does not work;
   * if for some reason that doesn't work, (CAREFUL) while keyboard is plugged in, momentary jump pads 5 &amp; 6 to enter bootloader;
 
