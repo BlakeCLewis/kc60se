@@ -21,18 +21,18 @@ QMK Firmware for KC60 SE keyboard pcb
   * col 0-13
   * pin: F0 F1 E6 C7 C6 B6 D4 B1 B7 B5 B4 D7 D6 B3
    
- ## Row pin configuration:
+ ### Row pin configuration:
   * row 0-4
   * pin: D0 D1 D2 D3 D5
 
- ## LED pins (found these with Ohm meter):
+ ### LED pins (found these with Ohm meter):
   * B2 Capslock LED
   * F5 Backlight LEDs
 
- ## Unused pins (I can't find anthing connected to these pins):
+ ### Unused pins (I can't find anthing connected to these pins):
   * B0 F4 F6 F7 E2
 
- ## DIP switches enable/disable keys K41 and K4C the second keys from the ends on the bottom row:
+ ### DIP switches enable/disable keys K41 and K4C the second keys from the ends on the bottom row:
   * When there are three keys on each side of the space bar, the middle of each 3 (K41,K4C) are WIN/GUI keys that will pause games, these switches allows you to disable WIN/GUI during games;
   * My default layout is "Win Key Less" (WKL), K41/K4C are LALT/RALT, so I have both dip switches in the ON position;
  ```
@@ -45,7 +45,7 @@ QMK Firmware for KC60 SE keyboard pcb
 
  ```
 
- ## 6 pin header next to the Atmega32u4:
+ ### 6 pin header next to the Atmega32u4:
 
   ![:::](https://i.imgur.com/SGmCW3h.jpg)
   ```
@@ -63,7 +63,7 @@ QMK Firmware for KC60 SE keyboard pcb
   ```
   I wonder why B1 &amp; B3 are available here. I think it would expose unused pins. I understand why B2 backlight LED is available, but why the 2 column pins?
 
- ## Enter bootloader:
+ ### Enter bootloader:
   * unplug keyboard
   * while holding down 'Space' &amp; 'B', plug in USB cable and continue to hold for 8 seconds;
   * 'lsusb' should report 'ATMEL Inc.' instead of 'feed 6060';
