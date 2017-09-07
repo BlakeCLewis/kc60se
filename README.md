@@ -32,14 +32,16 @@ QMK Firmware for KC60 SE keyboard pcb
  Unused pins (I can't find anthing connected to these pins):
   * B0 F4 F6 F7 E2
 
- DIP switches enable/disable keys K41 and K4C the second keys from the ends on the bottom row
+ DIP switches enable/disable keys K41 and K4C the second keys from the ends on the bottom row:
+  * When there are three keys on each side of the space bar, the middle of each 3 (K41,K4C) are WIN or GUI keys that will pause games;
+  * My default layout is "Win Key Less" (WKL) K41/K4C are LALT/RALT, so I have both dip switches in the ON position;
  ```
   dip      keys
-  1,2    K41   K4C
-  1,1     1     1    both enabled
-  1,0     0     1
-  0,1     1     0
-  0,0     0     0    both disabled
+ #1 #2   K41   K4C
+  1  1    1     1    both enabled
+  1  0    0     1   
+  0  1    1     0
+  0  0    0     0    both disabled
 
  ```
 
