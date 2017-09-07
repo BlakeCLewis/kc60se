@@ -32,6 +32,17 @@ QMK Firmware for KC60 SE keyboard pcb
  Unused pins (I can't find anthing connected to these pins):
   * B0 F4 F6 F7 E2
 
+ DIP switches enable/disable keys K41 and K4C the second keys from the ends on the bottom row
+ ```
+  dip      keys
+  1,2    K41   K4C
+  1,1     1     1    both enabled
+  1,0     0     1
+  0,1     1     0
+  0,0     0     0    both disabled
+
+ ```
+
  Header, 6 pins next to the Atmega32u4:
 
   ![:::](https://i.imgur.com/SGmCW3h.jpg)
