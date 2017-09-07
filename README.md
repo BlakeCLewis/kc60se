@@ -33,7 +33,7 @@ QMK Firmware for KC60 SE keyboard pcb
   * B0 F4 F6 F7 E2
 
  DIP switches enable/disable keys K41 and K4C the second keys from the ends on the bottom row:
-  * When there are three keys on each side of the space bar, the middle of each 3 (K41,K4C) are WIN or GUI keys that will pause games;
+  * When there are three keys on each side of the space bar, the middle of each 3 (K41,K4C) are WIN/GUI keys that will pause games, these switches allows you to disable WIN/GUI during games;
   * My default layout is "Win Key Less" (WKL) K41/K4C are LALT/RALT, so I have both dip switches in the ON position;
  ```
   dip      keys
