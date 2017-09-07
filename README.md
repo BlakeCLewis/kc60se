@@ -16,8 +16,8 @@ QMK Firmware for KC60 SE keyboard pcb
   * ```git clone git@github.com:BlakeCLewis/kc60se.git .```
   * or ```git clone https://github.com/BlakeCLewis/kc60se.git .```
 
-### KC60 SE Information
- ## Column pin configuration:
+## KC60 SE Information
+ ### Column pin configuration:
   * col 0-13
   * pin: F0 F1 E6 C7 C6 B6 D4 B1 B7 B5 B4 D7 D6 B3
    
