@@ -109,4 +109,6 @@ QMK Firmware for KC60 SE keyboard pcb
 
   [default layout](http://i.imgur.com/Y2xLF59.png)
   
-  [KC60 SE backside](http://i.imgur.com/yrtG6N0.png)
+  [KC60 SE pcb back](http://i.imgur.com/yrtG6N0.png)
+
+  [KC60 SE pcb front](http://i.imgur.com/VEeG8nT.jpg)
