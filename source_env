@@ -1,4 +1,0 @@
-
-PATH=~/arduino/hardware/tools/avr/bin:$PATH
-export PATH
-

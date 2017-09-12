@@ -16,9 +16,3 @@ FAUXCLICKY_ENABLE    = no    # Use buzzer to emulate clicky switches
 MIDI_ENABLE          = no    # MIDI controls
 MOUSEKEY_ENABLE      = no    # Mouse keys(+4700)
 UNICODE_ENABLE       = no    # Unicode
-
-SKIP_GIT = 1
-
-ifndef QUANTUM_DIR
-	include ../../../../Makefile
-endif
