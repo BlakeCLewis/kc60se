@@ -73,7 +73,7 @@
   * while holding down 'Space' &amp; 'B', plug in USB cable and continue to hold for 8 seconds;
   * 'lsusb' should report something like '03eb:2ff4 Atmel Corp. atmega32u4 DFU bootloader' instead of 'feed 6060';
   * LEDs should be off, and keyboard does not work;
-  * if for some reason that doesn't work, (CAREFUL) while keyboard is plugged in, momentary jump pads 5 &amp; 6 to enter bootloader;
+  * if for some reason that doesn't work, {% hint style='danger' %}(CAREFUL) while keyboard is plugged in, momentary jump pads 5 &amp; 6 to enter bootloader{% endhint %};
   * I found that flashing the firmware through a USB hub did not work consistantly. Most of the time it would finish with errors, but keyboard may partially work. If plugged into the computer it flashes with no errors.
 
  ## [Default layout:](http://i.imgur.com/Y2xLF59.png)
