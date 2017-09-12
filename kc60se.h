@@ -24,7 +24,7 @@ inline void kc60se_caps_led_on(void)  { DDRB |=  (1<<2); PORTB &= ~(1<<2); }
 inline void kc60se_caps_led_off(void) { DDRB &= ~(1<<2); PORTB &= ~(1<<2); }
 
 /* kc60se keymap definition macro
- * K2C, K31 and  K3C are extra keys for ISO
+ * K2C, K31 and  K3C are keys for ISO
  * This is the row/column wiring, which different from the physical layout.
  */
 // All pads defined in logical layout. The KC_NO in this section are padless. 
@@ -42,7 +42,7 @@ inline void kc60se_caps_led_off(void) { DDRB &= ~(1<<2); PORTB &= ~(1<<2); }
     { K40, K41, K42, KC_NO,KC_NO,K45,KC_NO,KC_NO,KC_NO,K49,K4A,K4B,K4C,K4D }  \
 }
 
-/* ANSI variant
+/* ANSI
  * pads not used are KC_NO, (K49, K31, K2C, K3C)
 */
 #define KEYMAP_ANSI( \
@@ -59,7 +59,7 @@ inline void kc60se_caps_led_off(void) { DDRB &= ~(1<<2); PORTB &= ~(1<<2); }
     { K40, K41, K42, KC_NO,KC_NO,K45, KC_NO,KC_NO,KC_NO,K4A, K4B,K4C,  K4D }  \
 }
 
-/* HHKB Variant
+/* HHKB
  *  K2C & K31 are represented as KC_NO, otherwise this is
  *  the best representation of the physical layout, (K49 on top right).
  *  The KC_NOs on the space row do not have pads
