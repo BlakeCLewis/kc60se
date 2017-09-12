@@ -1,10 +1,14 @@
 # NPKC KC60 SE
 ========================
 
-## KC60 SE: a common 60% PCB; a clone of GH60 with minor differences; it can be set up as ANSI, ISO, WKL or HHKB.
   * Hardware Supported:  KC60 SE pcb by NPKC
   * Keyboard Maintainer: Blake Lewis
   * [KC60 SE is available on Aliexpress](https://www.aliexpress.com/store/product/Free-shipping-GH60-PCB-KC60-SE-Fully-Programmable-For-DIY-Mechanical-Keyboard-Poker-Faceu-HHKB-Support/429151_32799437588.html?spm=2114.12010608.0.0.2995e5c0hNRgMH)
+
+## KC60 SE:
+  * common 60% PCB;
+  * clone of GH60 with minor differences;
+  * can be set up as ANSI, ISO, HHKB, and/or WKL.
 
  See [build environment setup](https://docs.qmk.fm/build_environment_setup.html) and [make instructions](https://docs.qmk.fm/make_instructions.html) for more information.
 
