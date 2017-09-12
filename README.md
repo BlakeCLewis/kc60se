@@ -17,9 +17,9 @@
   * or ```git clone https://github.com/BlakeCLewis/kc60se.git .```
 
 ## Description:
-  * common 60% keyboard PCB;
+  * 60% keyboard PCB;
   * clone of GH60 with minor differences;
-  * can be set up as ANSI, ISO, HHKB, and/or WKL.
+  * supports ANSI, ISO, HHKB, and/or WKL  layouts.
 
 ## Technical specifications
  ### Column pin configuration:
@@ -43,10 +43,10 @@
  ```
   dip      keys
  #1 #2   K41   K4C
-  1  1    1     1    both enabled
+  1  1    1     1    both keys enabled
   1  0    0     1   
   0  1    1     0
-  0  0    0     0    both disabled
+  0  0    0     0    both keys disabled
 
  ```
 
