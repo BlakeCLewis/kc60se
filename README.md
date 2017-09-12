@@ -68,7 +68,7 @@
   ```
   I wonder why B1 &amp; B3 are available here. I think it would expose unused pins. I understand why B2 backlight LED is available, but why the 2 column pins?
 
- ### Enter bootloader:
+ ### Enter Bootloader:
   * unplug keyboard
   * while holding down 'Space' &amp; 'B', plug in USB cable and continue to hold for 8 seconds;
   * 'lsusb' should report something like '03eb:2ff4 Atmel Corp. atmega32u4 DFU bootloader' instead of 'feed 6060';

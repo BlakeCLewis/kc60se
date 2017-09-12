@@ -14,7 +14,6 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with this program. If not, see <http://www.gnu.org/licenses/>.
 */
-
 #ifndef CONFIG_H
 #define CONFIG_H
 
@@ -24,7 +23,7 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
 #define PRODUCT_ID    0x6060
 #define DEVICE_VER    0x0001
 #define MANUFACTURER    NPKC
-#define PRODUCT         KC60 SE
+#define PRODUCT         KC60SE
 #define DESCRIPTION     q.m.k. keyboard firmware for KC60 SE pcb
 
 #define MATRIX_ROWS 5
