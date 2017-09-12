@@ -58,14 +58,11 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  *        |    |      |                                 | Stop |    |
  *        `---------------------------------------------------------'
  */
-#define KC_AMT   KC_AUDIO_MUTE
-#define KC_AVU   KC_AUDIO_VOL_UP
-#define KC_AVD   KC_AUDIO_VOL_DOWN
   [_FN] = KEYMAP_HHKB( /* Layer 1 */
       xxxxxx,  KC_F1,   KC_F2,   KC_F3,   KC_F4,  KC_F5,  KC_F6,   KC_F7,   KC_F8,   KC_F9,   KC_F10,  KC_F11, KC_F12, xxxxxx,KC_INS, \
-      KC_CAPS, BL_ON,   BL_STEP, xxxxxx,  KC_AMT, xxxxxx, xxxxxx,  xxxxxx,  KC_PSCR, KC_SLCK, KC_PAUS, KC_UP,  xxxxxx, KC_DEL, \
-      xxxxxx,  KC_VOLD, KC_VOLU, KC_MUTE, KC_AVU, xxxxxx, KC_PAST, KC_PSLS, KC_HOME, KC_PGUP, KC_LEFT, KC_RGHT,xxxxxx, \
-      xxxxxx,  KC_MPRV, KC_MPLY, KC_MNXT, KC_AVD, xxxxxx, KC_PPLS, KC_PMNS, KC_END,  KC_PGDN, KC_DOWN, xxxxxx, xxxxxx, \
+      KC_CAPS, BL_ON,   BL_STEP, xxxxxx,  xxxxxx, xxxxxx, xxxxxx,  xxxxxx,  KC_PSCR, KC_SLCK, KC_PAUS, KC_UP,  xxxxxx, KC_DEL, \
+      xxxxxx,  KC_VOLD, KC_VOLU, KC_MUTE, xxxxxx, xxxxxx, KC_PAST, KC_PSLS, KC_HOME, KC_PGUP, KC_LEFT, KC_RGHT,xxxxxx, \
+      xxxxxx,  KC_MPRV, KC_MPLY, KC_MNXT, xxxxxx, xxxxxx, KC_PPLS, KC_PMNS, KC_END,  KC_PGDN, KC_DOWN, xxxxxx, xxxxxx, \
       xxxxxx,  xxxxxx,  xxxxxx,                   xxxxxx,                   xxxxxx,  KC_MSTP, xxxxxx,  xxxxxx \
       )
 };
