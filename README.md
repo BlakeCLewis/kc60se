@@ -1,14 +1,11 @@
-# NPKC KC60 SE
+# KC60 SE
 ========================
 
-  * Hardware Supported:  KC60 SE pcb by NPKC
+  * Hardware Supported:  KC60 SE by NPKC
   * Keyboard Maintainer: Blake Lewis
   * [KC60 SE is available on Aliexpress](https://www.aliexpress.com/store/product/Free-shipping-GH60-PCB-KC60-SE-Fully-Programmable-For-DIY-Mechanical-Keyboard-Poker-Faceu-HHKB-Support/429151_32799437588.html?spm=2114.12010608.0.0.2995e5c0hNRgMH)
-
-## KC60 SE:
-  * common 60% PCB;
-  * clone of GH60 with minor differences;
-  * can be set up as ANSI, ISO, HHKB, and/or WKL.
+  * [back](http://i.imgur.com/yrtG6N0.png)
+  * [Front](https://i.imgur.com/jw5prK8.jpg)
 
  See [build environment setup](https://docs.qmk.fm/build_environment_setup.html) and [make instructions](https://docs.qmk.fm/make_instructions.html) for more information.
 
@@ -19,7 +16,12 @@
   * ```git clone git@github.com:BlakeCLewis/kc60se.git .```
   * or ```git clone https://github.com/BlakeCLewis/kc60se.git .```
 
-## KC60 SE Information
+## Description:
+  * common 60% keyboard PCB;
+  * clone of GH60 with minor differences;
+  * can be set up as ANSI, ISO, HHKB, and/or WKL.
+
+## Technical specifications
  ### Column pin configuration:
   * col 0-13
   * pin: F0 F1 E6 C7 C6 B6 D4 B1 B7 B5 B4 D7 D6 B3
@@ -72,10 +74,10 @@
   * 'lsusb' should report something like '03eb:2ff4 Atmel Corp. atmega32u4 DFU bootloader' instead of 'feed 6060';
   * LEDs should be off, and keyboard does not work;
   * if for some reason that doesn't work, (CAREFUL) while keyboard is plugged in, momentary jump pads 5 &amp; 6 to enter bootloader;
+  * I found that flashing the firmware through a USB hub did not work consistantly. Most of the time it would finish with errors, but keyboard may partially work. If plugged into the computer it flashes with no errors.
 
- I found that flashing the firmware through a USB hub did not work consistantly. Most of the time it would finish with errors, but keyboard may partially work. If plugged into the computer it flashes with no errors.
-
- ### HHKB/Querty - default layer - WKL:
+ ## [Default layout:](http://i.imgur.com/Y2xLF59.png)
+ ### HHKB/Querty - default layer - WKL
   ```
   ,--------------------------------------------------------------------------.
   | esc|  1 |  2 |  3 |  4 |  5 |  6 |  7 |  8 |  9 |  0 |  - |  = |  \ |  ` |
@@ -89,7 +91,7 @@
           |lalt| fn0  |               space              | rgui  |ralt|
           `-----------------------------------------------------------'
   ```
- ### HHKB/Querty - layer 1 - Q/W are backlight controls:
+ ### HHKB/Querty - layer 1 - Q/W are backlight controls
   ```
   ,--------------------------------------------------------------------------.
   |    | f1 | f2 | f3 | f4 | f5 | f6 | f7 | f8 | f9 | f10| f11| f12|    | ins|
@@ -104,14 +106,10 @@
           `---------------------------------------------------------'
   ```
 
-  Features to add:
+  ## Features to add:
    * Disable/Enable RGUI key for gaming. Use MAGIC_NO_GU/MAGIC_UNNO_GUII in toggle function;
    * Alternately override BOOTMAGIC to use SPACE + RGUI instead of SPACE + LGUI to disable RGUI;
    * Backlight  wave, pulse, breath;
    * RGB ws2812 underside lighting. Possibly E2. It is on corner of Atmega32u4 next to R3 label on pcb.
 
-  [default layout](http://i.imgur.com/Y2xLF59.png)
   
-  [KC60 SE pcb back](http://i.imgur.com/yrtG6N0.png)
-
-  [KC60 SE pcb front](https://i.imgur.com/jw5prK8.jpg)
