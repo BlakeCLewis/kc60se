@@ -22,9 +22,9 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
 #define VENDOR_ID     0xFEED
 #define PRODUCT_ID    0x6060
 #define DEVICE_VER    0x0001
-#define MANUFACTURER    NPKC
-#define PRODUCT         KC60SE
-#define DESCRIPTION     q.m.k. keyboard firmware for KC60 SE pcb
+#define MANUFACTURER  NPKC
+#define PRODUCT       KC60SE
+#define DESCRIPTION   q.m.k. keyboard firmware for KC60 SE pcb
 
 #define MATRIX_ROWS 5
 #define MATRIX_COLS 14
@@ -38,11 +38,11 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
 #define DIODE_DIRECTION COL2ROW
 
 #define DEBOUNCING_DELAY  5
-//      CAPS_LOCK_PIN    B2  #defined in kc60se.h
+//      CAPS_LOCK_PIN    B2 #literal in kc0se.h
 #define BACKLIGHT_PIN    F5
 #define BACKLIGHT_LEVELS  6
 
-// mechanical locking support. Use KC_LCAP, KC_LNUM or KC_LSCR instead in keymap
+// mechanical locking support. Use KC_LCAP instead in keymap
 #define LOCKING_SUPPORT_ENABLE
 // tries to keep switch state consistent with keyboard LED state
 #define LOCKING_RESYNC_ENABLE
