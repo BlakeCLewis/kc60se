@@ -1,7 +1,7 @@
 # HHKB
 ========================
 
- ## [Default layout:](http://i.imgur.com/Y2xLF59.png)
+ ## HHKB/QWERTY/FBR
  ### hhkb/qwerty/fbr - default layer - (full bottom row)
   ```
   ,--------------------------------------------------------------------------.
