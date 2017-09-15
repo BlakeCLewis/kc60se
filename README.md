@@ -4,7 +4,7 @@
   * Hardware Supported:  KC60 SE by NPKC
   * Keyboard Maintainer: Blake Lewis
 
-  * [KC60 SE is available on Aliexpress](https://www.aliexpress.com/store/product/Free-shipping-GH60-PCB-KC60-SE-Fully-Programmable-For-DIY-Mechanical-Keyboard-Poker-Faceu-HHKB-Support/429151_32799437588.html?spm=2114.12010608.0.0.2995e5c0hNRgMH) &amp; [full keyboard](https://www.aliexpress.com/item/HHKB-GH60-Programmable-PCB-CNC-Case-Plate-Switches-Led-Stabilizers-Keycaps-DIY-Kit-For-HHKB-MX/32799705288.html?spm=a2g0s.9042311.0.0.OBQ5JU)
+  * [KC60 SE is available on Aliexpress: pcb](https://www.aliexpress.com/store/product/Free-shipping-GH60-PCB-KC60-SE-Fully-Programmable-For-DIY-Mechanical-Keyboard-Poker-Faceu-HHKB-Support/429151_32799437588.html?spm=2114.12010608.0.0.2995e5c0hNRgMH) &amp; [complete keyboard](https://www.aliexpress.com/item/HHKB-GH60-Programmable-PCB-CNC-Case-Plate-Switches-Led-Stabilizers-Keycaps-DIY-Kit-For-HHKB-MX/32799705288.html?spm=a2g0s.9042311.0.0.OBQ5JU)
   * [Back](http://i.imgur.com/yrtG6N0.png)
   * [Front](https://i.imgur.com/jw5prK8.jpg)
 
