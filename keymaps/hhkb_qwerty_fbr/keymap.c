@@ -26,7 +26,7 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
 #define xxxxxx KC_TRNS
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
-/* Qwerty alt/fn0/space/gui/alt
+/* layer 0 - default 
  *,--------------------------------------------------------------------------.
  *| Esc|  1 |  2 |  3 |  4 |  5 |  6 |  7 |  8 |  9 |  0 |  - |  = |  \ |  ` |
  *|----=---------------------------------------------------------------------+
@@ -80,9 +80,6 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
       xxxxxx,  xxxxxx,  xxxxxx,  xxxxxx,  xxxxxx, xxxxxx, xxxxxx,  xxxxxx,  xxxxxx,  xxxxxx,  xxxxxx,  xxxxxx,  xxxxxx, \
       xxxxxx,  xxxxxx,  xxxxxx,                   xxxxxx,                   xxxxxx,  xxxxxx,  xxxxxx,  xxxxxx \
       )
-};
-
-const uint16_t PROGMEM fn_actions[] = {
 };
 
 const macro_t *action_get_macro(keyrecord_t *record, uint8_t id, uint8_t opt)
