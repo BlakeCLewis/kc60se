@@ -42,9 +42,7 @@ inline void kc60se_caps_led_off(void) { DDRB &= ~(1<<2); PORTB &= ~(1<<2); }
     { K40, K41, K42, KC_NO,KC_NO,K45,KC_NO,KC_NO,KC_NO,K49,K4A,K4B,K4C,K4D }  \
 }
 
-/* ANSI
- * pads not used are KC_NO, (K49, K31, K2C, K3C)
-*/
+/* ANSI */
 #define KEYMAP_ANSI( \
     K00, K01, K02, K03, K04, K05, K06, K07, K08, K09, K0A, K0B, K0C, K0D, \
     K10, K11, K12, K13, K14, K15, K16, K17, K18, K19, K1A, K1B, K1C, K1D, \
