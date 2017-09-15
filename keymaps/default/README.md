@@ -1,7 +1,6 @@
-# HHKB
+# HHKB/QWERTY/WKL
 ========================
 
- ## [Default layout:](http://i.imgur.com/Y2xLF59.png)
  ### hhkb/qwerty/wkl - default layer
   ```
   ,--------------------------------------------------------------------------.
