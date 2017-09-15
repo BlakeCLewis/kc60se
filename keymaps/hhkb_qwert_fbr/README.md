@@ -1,7 +1,6 @@
-# HHKB
+# HHKB/QWERTY/FBR
 ========================
 
- ## HHKB/QWERTY/FBR
  ### hhkb/qwerty/fbr - default layer - (full bottom row)
   ```
   ,--------------------------------------------------------------------------.

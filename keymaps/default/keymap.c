@@ -24,17 +24,17 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
 #define xxxxxx KC_TRNS
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
-/* Qwerty alt/fn0/space/gui/alt
+/* hhkb/qwerty/wkl - default layer
  *,--------------------------------------------------------------------------.
- *| Esc|  1 |  2 |  3 |  4 |  5 |  6 |  7 |  8 |  9 |  0 |  - |  = |  \ |  ` |
- *|----=---------------------------------------------------------------------+
- *| Tab   |  Q |  W |  E |  R |  T |  Y |  U |  I |  O |  P |  [ |  ] | Bksp |
+ *| esc|  1 |  2 |  3 |  4 |  5 |  6 |  7 |  8 |  9 |  0 |  - |  = |  \ |  ` |
  *|--------------------------------------------------------------------------+
- *| Ctrl   |  A |  S |  D |  F |  G |  H |  J |  K |  L |  ; |  ' |  Enter   |
+ *| tab  |  q |  w |  e |  r |  t |  y |  u |  i |  o |  p |  [ |  ] | bksp  |
  *|--------------------------------------------------------------------------+
- *| Shift    |  Z |  X |  C |  V |  B |  N |  M |  , |  . |  / | RShift | Fn0|
+ *| ctrl  |  a |  s |  d |  f |  g |  h |  j |  k |  l |  ; |  ' |  enter    |
  *|--------------------------------------------------------------------------+
- *        |LAlt| Fn0  |               Space              | RGui  |RAlt|
+ *| shift   |  z |  x |  c |  v |  b |  n |  m |  , |  . |  / | rshift  | fn1|
+ *|--------------------------------------------------------------------------+
+ *        |lalt| fn1  |               space              | rgui  |ralt|
  *        `-----------------------------------------------------------'
  */
   [_DEFAULT] = KEYMAP_HHKB( /* Basic QWERTY */
@@ -45,18 +45,19 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
       xxxxxx,  KC_LALT, MO(_FN),             KC_SPC,             xxxxxx,  KC_RGUI, KC_RALT, xxxxxx \
       ),
 
-/* Layer 1
+/* hhkb/qwerty/wkl - Layer 1
+ *
  *,--------------------------------------------------------------------------.
- *|    | F1 | F2 | F3 | F4 | F5 | F6 | F7 | F8 | F9 | F10| F11| F12|    | Ins|
+ *|    | f1 | f2 | f3 | f4 | f5 | f6 | f7 | f8 | f9 | f10| f11| f12|    | ins|
  *|--------------------------------------------------------------------------+
- *| CAPS |BlOn|BlUp|    |    |    |    |    | Psc|Slck|Paus| Up |    |  Del  |
+ *| caps |blon|blup|    |    |    |    |    | psc|slck|paus| up |    |  del  |
  *|--------------------------------------------------------------------------+
- *|       |Vol-|Vol+|Mute|    |    | *  | /  |Home|PgUp|Left|Rite|           |
+ *|       |vol-|vol+|mute|    |    | *  | /  |home|pgup|left|rght|  penter   |
  *|--------------------------------------------------------------------------+
- *|         |Prev|Play|Next|    |    | +  | -  |End |PgDn|Down|         |    |
+ *|         |prev|play|next|    |    | +  | -  |end |pgdn|down|         |    |
  *|--------------------------------------------------------------------------+
- *        |    |      |                                 | Stop |    |
- *        `---------------------------------------------------------'
+ *        |    |      |                                  | stop |    |
+ *        `----------------------------------------------------------'
  */
   [_FN] = KEYMAP_HHKB( /* Layer 1 */
       xxxxxx,  KC_F1,   KC_F2,   KC_F3,   KC_F4,  KC_F5,  KC_F6,   KC_F7,   KC_F8,   KC_F9,   KC_F10,  KC_F11, KC_F12, xxxxxx,KC_INS, \
