@@ -64,21 +64,21 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
       KC_CAPS, BL_ON,   BL_STEP, xxxxxx,  xxxxxx, xxxxxx, xxxxxx,  xxxxxx,  KC_PSCR, KC_SLCK, KC_PAUS, KC_UP,   xxxxxx, KC_DEL, \
       xxxxxx,  KC_VOLD, KC_VOLU, KC_MUTE, xxxxxx, xxxxxx, KC_PAST, KC_PSLS, KC_HOME, KC_PGUP, KC_LEFT, KC_RGHT, xxxxxx, \
       xxxxxx,  KC_MPRV, KC_MPLY, KC_MNXT, xxxxxx, xxxxxx, KC_PPLS, KC_PMNS, KC_END,  KC_PGDN, KC_DOWN, xxxxxx,  xxxxxx, \
-      xxxxxx,  xxxxxx,  xxxxxx,                   xxxxxx,                   xxxxxx,  KC_MSTP, xxxxxx,  xxxxxx \ 
+      xxxxxx,  xxxxxx,  xxxxxx,                   xxxxxx,                   xxxxxx,  KC_MSTP, xxxxxx,  xxxxxx \
       ),
   [_FN2] = KEYMAP_HHKB( /* Layer 2 */
-      xxxxxx,  xxxxxx,  xxxxxx,  xxxxxx,  xxxxxx, xxxxxx, xxxxxx,  xxxxxx,  xxxxxx,  xxxxxx,  xxxxxx,  xxxxxx,  xxxxxx, xxxxxx, xxxxxx,\
+      xxxxxx,  xxxxxx,  xxxxxx,  xxxxxx,  xxxxxx, xxxxxx, xxxxxx,  xxxxxx,  xxxxxx,  xxxxxx,  xxxxxx,  xxxxxx,  xxxxxx, xxxxxx, xxxxxx, \
       xxxxxx,  xxxxxx,  KC_UP,   xxxxxx,  xxxxxx, xxxxxx, xxxxxx,  xxxxxx,  xxxxxx,  xxxxxx,  xxxxxx,  xxxxxx,  xxxxxx, xxxxxx, \
-      xxxxxx,  KC_LEFT, KC_DOWN, KC_RGHT, xxxxxx, xxxxxx, xxxxxx,  xxxxxx,  xxxxxx,  xxxxxx,  xxxxxx,  xxxxxx,  \
+      xxxxxx,  KC_LEFT, KC_DOWN, KC_RGHT, xxxxxx, xxxxxx, xxxxxx,  xxxxxx,  xxxxxx,  xxxxxx,  xxxxxx,  xxxxxx,  xxxxxx, \
       xxxxxx,  xxxxxx,  xxxxxx,  xxxxxx,  xxxxxx, xxxxxx, xxxxxx,  xxxxxx,  xxxxxx,  xxxxxx,  xxxxxx,  xxxxxx,  xxxxxx, \
-      xxxxxx,  xxxxxx,  xxxxxx,                   xxxxxx,                   xxxxxx,  xxxxxx,  xxxxxx,  xxxxxx \ 
+      xxxxxx,  xxxxxx,  xxxxxx,                   xxxxxx,                   xxxxxx,  xxxxxx,  xxxxxx,  xxxxxx \
       ),
   [_FN3] = KEYMAP_HHKB( /* Layer 3 */
-      xxxxxx,  xxxxxx,  xxxxxx,  xxxxxx,  xxxxxx, xxxxxx, xxxxxx,  xxxxxx,  xxxxxx,  xxxxxx,  xxxxxx,  xxxxxx,  xxxxxx, xxxxxx, xxxxxx,\
+      xxxxxx,  xxxxxx,  xxxxxx,  xxxxxx,  xxxxxx, xxxxxx, xxxxxx,  xxxxxx,  xxxxxx,  xxxxxx,  xxxxxx,  xxxxxx,  xxxxxx, xxxxxx, xxxxxx, \
       xxxxxx,  xxxxxx,  xxxxxx,  xxxxxx,  xxxxxx, xxxxxx, xxxxxx,  xxxxxx,  xxxxxx,  xxxxxx,  xxxxxx,  xxxxxx,  xxxxxx, xxxxxx, \
-      xxxxxx,  xxxxxx,  xxxxxx,  xxxxxx,  xxxxxx, xxxxxx, xxxxxx,  xxxxxx,  xxxxxx,  xxxxxx,  xxxxxx,  xxxxxx,  \
       xxxxxx,  xxxxxx,  xxxxxx,  xxxxxx,  xxxxxx, xxxxxx, xxxxxx,  xxxxxx,  xxxxxx,  xxxxxx,  xxxxxx,  xxxxxx,  xxxxxx, \
-      xxxxxx,  xxxxxx,  xxxxxx,                   xxxxxx,                   xxxxxx,  xxxxxx,  xxxxxx,  xxxxxx \ 
+      xxxxxx,  xxxxxx,  xxxxxx,  xxxxxx,  xxxxxx, xxxxxx, xxxxxx,  xxxxxx,  xxxxxx,  xxxxxx,  xxxxxx,  xxxxxx,  xxxxxx, \
+      xxxxxx,  xxxxxx,  xxxxxx,                   xxxxxx,                   xxxxxx,  xxxxxx,  xxxxxx,  xxxxxx \
       )
 };
 
