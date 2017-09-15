@@ -79,36 +79,6 @@
   * if for some reason that doesn't work, (CAREFUL) while keyboard is plugged in, momentary jump pads 5 &amp; 6 to enter bootloader;
   * I found that flashing the firmware through a USB hub did not work consistantly. Most of the time it would finish with errors, but keyboard may partially work. If plugged into the computer it flashes with no errors.
 
- ## [Default layout:](http://i.imgur.com/Y2xLF59.png)
- ### HHKB/Querty - default layer - WKL
-  ```
-  ,--------------------------------------------------------------------------.
-  | esc|  1 |  2 |  3 |  4 |  5 |  6 |  7 |  8 |  9 |  0 |  - |  = |  \ |  ` |
-  |----=---------------------------------------------------------------------+
-  | tab   |  Q |  W |  E |  R |  T |  Y |  U |  I |  O |  P |  [ |  ] | bksp |
-  |--------------------------------------------------------------------------+
-  | ctrl   |  A |  S |  D |  F |  G |  H |  J |  K |  L |  ; |  ' |  enter   |
-  |--------------------------------------------------------------------------+
-  | lshift   |  Z |  X |  C |  V |  B |  N |  M |  , |  . |  / | rshift | fn0|
-  |--------------------------------------------------------------------------+
-          |lalt| fn0  |               space              | rgui  |ralt|
-          `-----------------------------------------------------------'
-  ```
- ### HHKB/Querty - layer 1 - Q/W are backlight controls
-  ```
-  ,--------------------------------------------------------------------------.
-  |    | f1 | f2 | f3 | f4 | f5 | f6 | f7 | f8 | f9 | f10| f11| f12|    | ins|
-  |--------------------------------------------------------------------------+
-  | caps |blon|blup|    |    |    |    |    | psc|slck|paus| up |    |  del  |
-  |--------------------------------------------------------------------------+
-  |       |vol-|vol+|mute|    |    | *  | /  |home|pgup|left|rite| penter    |
-  |--------------------------------------------------------------------------+
-  |         |mprv|mply|mnxt|    |    | +  | -  |end |pgdn|down|         |    |
-  |--------------------------------------------------------------------------+
-          |    |      |                                 | mstop|    |
-          `---------------------------------------------------------'
-  ```
-
   ## Features to add:
    * Disable/Enable RGUI key for gaming. Use MAGIC_NO_GU/MAGIC_UNNO_GUII in toggle function;
    * Alternately override BOOTMAGIC to use SPACE + RGUI instead of SPACE + LGUI to disable RGUI;
