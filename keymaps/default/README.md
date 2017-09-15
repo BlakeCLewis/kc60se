@@ -1,7 +1,7 @@
-# HHKB/QWERTY/WKL
+# hhkb-qwerty-wkl
 ========================
 
- ### hhkb/qwerty/wkl - default layer
+ ### layer 0 - default
   ```
   ,--------------------------------------------------------------------------.
   | esc|  1 |  2 |  3 |  4 |  5 |  6 |  7 |  8 |  9 |  0 |  - |  = |  \ |  ` |
@@ -15,7 +15,7 @@
          |lalt| fn0   |               space              | rgui  |ralt|
          `-----------------------------------------------------------'
   ```
- ### hhkb/qwerty/wkl - layer 1 - Q/W backlight controls: BL_ON &amp; BL_STEP
+ ### layer 1 - Q/W backlight controls: BL_ON &amp; BL_STEP
   ```
   ,--------------------------------------------------------------------------.
   |    | f1 | f2 | f3 | f4 | f5 | f6 | f7 | f8 | f9 | f10| f11| f12|    | ins|
