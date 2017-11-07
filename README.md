@@ -17,7 +17,7 @@
   * ```git clone git@github.com:BlakeCLewis/kc60se.git .```
   * or ```git clone https://github.com/BlakeCLewis/kc60se.git .```
   * ```cd ../../```
-  * ```make kc60se-default```
+  * ```make kc60se:default```
 
 ## Description:
   * 60% keyboard PCB;
