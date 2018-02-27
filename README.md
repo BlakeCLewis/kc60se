@@ -17,7 +17,7 @@
   * ```git clone git@github.com:BlakeCLewis/kc60se.git .```
   * or ```git clone https://github.com/BlakeCLewis/kc60se.git .```
   * ```cd ../../```
-  * ```make kc60se-default```
+  * ```make kc60se:default```
 
 ## Description:
   * 60% keyboard PCB;
@@ -82,7 +82,5 @@
   ## Features to add:
    * Disable/Enable RGUI key for gaming. Use MAGIC_NO_GU/MAGIC_UNNO_GUII in toggle function;
    * Alternately override BOOTMAGIC to use SPACE + RGUI instead of SPACE + LGUI to disable RGUI;
-   * Backlight  wave, pulse, breath;
-   * RGB ws2812 underside lighting. Possibly E2. It is on corner of Atmega32u4 next to R3 label on pcb.
 
   
