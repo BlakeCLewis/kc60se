@@ -63,9 +63,9 @@
   1 3 5
   ```
   ```
-  1 - B3 (square pad)
+  1 - B3    (square pad, column 13)
   2 - VCC
-  3 - B1
+  3 - B1    (column 7)
   4 - B2    (backlight)
   5 - Reset
   6 - Ground
