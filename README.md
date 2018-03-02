@@ -18,6 +18,7 @@
   * or ```git clone https://github.com/BlakeCLewis/kc60se.git .```
   * ```cd ../../```
   * ```make kc60se:default```
+  * or ```make kc60se:hhkb_qwerty_fbr```
 
 ## Description:
   * 60% keyboard PCB;
