@@ -4,7 +4,7 @@
   * Hardware Supported:  KC60 SE by NPKC
   * Keyboard Maintainer: Blake Lewis
 
-  * KC60 SE is available on Aliexpress: [pcb](https://www.aliexpress.com/store/product/Free-shipping-GH60-PCB-KC60-SE-Fully-Programmable-For-DIY-Mechanical-Keyboard-Poker-Faceu-HHKB-Support/429151_32799437588.html?spm=2114.12010608.0.0.2995e5c0hNRgMH) &amp; [complete keyboard](https://www.aliexpress.com/item/HHKB-GH60-Programmable-PCB-CNC-Case-Plate-Switches-Led-Stabilizers-Keycaps-DIY-Kit-For-HHKB-MX/32799705288.html?spm=a2g0s.9042311.0.0.OBQ5JU)
+  * KC60 SE is available on Aliexpress: [pcb](https://www.aliexpress.com/store/product/Free-shipping-GH60-PCB-KC60-SE-Fully-Programmable-For-DIY-Mechanical-Keyboard-Poker-Faceu-HHKB-Support/429151_32799437588.html?spm=2114.12010608.0.0.2995e5c0hNRgMH)
   * [Back](http://i.imgur.com/yrtG6N0.png)
   * [Front](https://i.imgur.com/jw5prK8.jpg)
 
@@ -17,7 +17,7 @@
   * ```git clone git@github.com:BlakeCLewis/kc60se.git .```
   * or ```git clone https://github.com/BlakeCLewis/kc60se.git .```
   * ```cd ../../```
-  * ```make kc60se-default```
+  * ```make kc60se:default```
 
 ## Description:
   * 60% keyboard PCB;
@@ -82,7 +82,5 @@
   ## Features to add:
    * Disable/Enable RGUI key for gaming. Use MAGIC_NO_GU/MAGIC_UNNO_GUII in toggle function;
    * Alternately override BOOTMAGIC to use SPACE + RGUI instead of SPACE + LGUI to disable RGUI;
-   * Backlight  wave, pulse, breath;
-   * RGB ws2812 underside lighting. Possibly E2. It is on corner of Atmega32u4 next to R3 label on pcb.
 
   
