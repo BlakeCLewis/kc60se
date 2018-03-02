@@ -1,4 +1,4 @@
-# hhkb-qwerty-fbr
+# hhkb_qwerty_fbr
 ========================
 
  ### layer 0 - default layer
