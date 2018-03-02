@@ -70,9 +70,8 @@
   5 - Reset
   6 - Ground
   ```
-  Why are B1 &amp; B3 available on the header? Why expose used column pins.
 
- ### Enter Bootloader:
+ ### Enter the Bootloader:
   * unplug keyboard
   * while holding down 'Space' &amp; 'B', plug in USB cable and continue to hold for 8 seconds;
   * 'lsusb' should report something like '03eb:2ff4 Atmel Corp. atmega32u4 DFU bootloader' instead of 'feed 6060';
