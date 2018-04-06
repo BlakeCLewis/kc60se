@@ -24,7 +24,8 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
 #define xxxxxx KC_TRNS
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
-/* hhkb/qwerty/wkl - default layer
+/* hhkb - layer 0
+ * split_bs/split_rshift/+ctrl-caplock
  *,--------------------------------------------------------------------------.
  *| esc|  1 |  2 |  3 |  4 |  5 |  6 |  7 |  8 |  9 |  0 |  - |  = |  \ |  ` |
  *|--------------------------------------------------------------------------+
@@ -45,7 +46,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
       xxxxxx,  KC_LALT, MO(_FN),             KC_SPC,             xxxxxx,  KC_RGUI, KC_RALT, xxxxxx \
       ),
 
-/* hhkb/qwerty/wkl - Layer 1
+/* split_bs/split_rshift/+ctrl-caplock - Layer 1
  *
  *,--------------------------------------------------------------------------.
  *|    | f1 | f2 | f3 | f4 | f5 | f6 | f7 | f8 | f9 | f10| f11| f12|    | ins|
@@ -67,43 +68,3 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
       xxxxxx,  xxxxxx,  xxxxxx,                   xxxxxx,                   xxxxxx,  KC_MSTP, xxxxxx,  xxxxxx \
       )
 };
-
-const uint16_t PROGMEM fn_actions[] = {
-};
-
-const macro_t *action_get_macro(keyrecord_t *record, uint8_t id, uint8_t opt)
-{
-  // MACRODOWN only works in this function
-  return MACRO_NONE;
-};
-/*
-void matrix_init_user(void) {
-
-}
-
-void matrix_scan_user(void) {
-
-}
-
-bool process_record_user(uint16_t keycode, keyrecord_t *record) {
- switch (keycode) {
-    case FOO:
-      if (record->event.pressed) {
-        // Do something when pressed
-      } else {
-        // Do something else when release
-      }
-      return false; // Skip all further processing of this key
-    case KC_PENTER:
-      // Play a tone when penter is pressed
-      if (record->event.pressed) {
-        PLAY_NOTE_ARRAY(tone_qwerty);
-      }
-      return true; // Let QMK send the enter press/release events
-  }
-}
-
-void led_set_user(uint8_t usb_led) {
-
-}
-*/

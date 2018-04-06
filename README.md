@@ -4,7 +4,7 @@
   * Hardware Supported:  KC60 SE by NPKC
   * Keyboard Maintainer: Blake Lewis
 
-  * KC60 SE is available on Aliexpress: [pcb](https://www.aliexpress.com/store/product/Free-shipping-GH60-PCB-KC60-SE-Fully-Programmable-For-DIY-Mechanical-Keyboard-Poker-Faceu-HHKB-Support/429151_32799437588.html?spm=2114.12010608.0.0.2995e5c0hNRgMH)
+  * [KC60 SE PCB is available on Aliexpress](https://www.aliexpress.com/store/product/Free-shipping-GH60-PCB-KC60-SE-Fully-Programmable-For-DIY-Mechanical-Keyboard-Poker-Faceu-HHKB-Support/429151_32799437588.html?spm=2114.12010608.0.0.2995e5c0hNRgMH)
   * [Back](http://i.imgur.com/yrtG6N0.png)
   * [Front](https://i.imgur.com/jw5prK8.jpg)
 
@@ -18,6 +18,7 @@
   * or ```git clone https://github.com/BlakeCLewis/kc60se.git .```
   * ```cd ../../```
   * ```make kc60se:default```
+  * or ```make kc60se:hhkb_qwerty_fbr```
 
 ## Description:
   * 60% keyboard PCB;
@@ -42,7 +43,7 @@
 
  ### DIP switches enable/disable keys K41 and K4C the second keys from the ends on the bottom row:
   * When there are three keys on each side of the space bar, the middle of each 3 (K41,K4C) are WIN/GUI keys that will pause games, these switches allows you to disable WIN/GUI during games;
-  * My default layout is "Win Key Less" (WKL), K41/K4C are LALT/RALT, so I have both dip switches in the ON position;
+  * default layout is "Win Key Less" (WKL), K41/K4C are LALT/RALT, so I have both dip switches in the ON position;
  ```
   dip      keys
  #1 #2   K41   K4C
@@ -62,25 +63,18 @@
   1 3 5
   ```
   ```
-  1 - B3 (square pad)
+  1 - B3    (square pad, column 13)
   2 - VCC
-  3 - B1
-  4 - B2
+  3 - B1    (column 7)
+  4 - B2    (backlight)
   5 - Reset
   6 - Ground
   ```
-  I wonder why B1 &amp; B3 are available here. I think it would expose unused pins. I understand why B2 backlight LED is available, but why the 2 column pins?
 
- ### Enter Bootloader:
+ ### Enter the Bootloader:
   * unplug keyboard
   * while holding down 'Space' &amp; 'B', plug in USB cable and continue to hold for 8 seconds;
   * 'lsusb' should report something like '03eb:2ff4 Atmel Corp. atmega32u4 DFU bootloader' instead of 'feed 6060';
   * LEDs should be off, and keyboard does not work;
   * if for some reason that doesn't work, (CAREFUL) while keyboard is plugged in, momentary jump pads 5 &amp; 6 to enter bootloader;
   * I found that flashing the firmware through a USB hub did not work consistantly. Most of the time it would finish with errors, but keyboard may partially work. If plugged into the computer it flashes with no errors.
-
-  ## Features to add:
-   * Disable/Enable RGUI key for gaming. Use MAGIC_NO_GU/MAGIC_UNNO_GUII in toggle function;
-   * Alternately override BOOTMAGIC to use SPACE + RGUI instead of SPACE + LGUI to disable RGUI;
-
-  

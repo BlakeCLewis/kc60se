@@ -42,11 +42,6 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
 #define BACKLIGHT_PIN    F5
 #define BACKLIGHT_LEVELS  6
 
-// mechanical locking support. Use KC_LCAP instead in keymap
-//#define LOCKING_SUPPORT_ENABLE
-// tries to keep switch state consistent with keyboard LED state
-//#define LOCKING_RESYNC_ENABLE
-
 /* key combination for magic key command */
 #define IS_COMMAND() ( \
   keyboard_report->mods == (MOD_BIT(KC_LSHIFT) | MOD_BIT(KC_RSHIFT)) \
