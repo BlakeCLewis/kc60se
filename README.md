@@ -66,7 +66,7 @@
   1 - B3    (square pad, column 13)
   2 - VCC
   3 - B1    (column 7)
-  4 - B2    (backlight)
+  4 - B2    (capslock led)
   5 - Reset
   6 - Ground
   ```
@@ -74,7 +74,7 @@
  ### Enter the Bootloader:
   * unplug keyboard
   * while holding down 'Space' &amp; 'B', plug in USB cable and continue to hold for 8 seconds;
-  * 'lsusb' should report something like '03eb:2ff4 Atmel Corp. atmega32u4 DFU bootloader' instead of 'feed 6060';
+  * 'lsusb'(Linux) should report something like '03eb:2ff4 Atmel Corp. atmega32u4 DFU bootloader' instead of 'feed 6060';
   * LEDs should be off, and keyboard does not work;
   * if for some reason that doesn't work, (CAREFUL) while keyboard is plugged in, momentary jump pads 5 &amp; 6 to enter bootloader;
   * I found that flashing the firmware through a USB hub did not work consistantly. Most of the time it would finish with errors, but keyboard may partially work. If plugged into the computer it flashes with no errors.
