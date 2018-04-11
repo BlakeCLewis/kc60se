@@ -1,5 +1,6 @@
 
   ##parts list for HHKB layout.
+ 
   OEM and Cherry profile are laid out top row is 4 and bottem 2 rows have same profile, row 1 profile.
 
  
