@@ -1,18 +1,17 @@
 
-  Parts list for HHKB layout.
+  <h2>Parts list for HHKB layout</h2>
+  ========================
  
   OEM and Cherry profile are laid out top row is 4 and bottem 2 rows have same profile, row 1 profile.
 
  
   Details of HHKB layout, which is 'split backspace' + 'split right shift' + 'control replaces caplock' + 'WKL'
 
-  '''
   * 4 - row 4 the right end keys are 'vertical pipe' 1u, and 'tilde' 1u (split backspace) the far right key is not used when using 2u 'backspace'
   * 3 - 'backspace' or 'delete' replaces 1.5u 'vertical pipe' end of row 3
   * 2 - 'control' replaces 'caplock' row 2 profile
   * 1 - 2.75u 'rshift' is replaced with 1.75u plus 'fn' 1u, row 1 profile (split right shift)
   * 1 - 1.5u, 1u 'alt', 1.5u, 7u 'space', 1.5u, 1u 'alt', 1.5u bottem row, row 1 profile (WKL)
-  '''
 
   [Gatron Switches](https://www.aliexpress.com/item/Wholesales-61-pcs-lot-Gateron-MX-switches-3-pin-Black-Red-Brown-Blue-Yellow-White-Shaft/32564576504.html) I use brown, I like the tactile bump. On the space bar I use green for a stronger spring. The PCB can use 3 or 5 pin. 2 of which are contacts and 1 or 3 are plastic. 
 
