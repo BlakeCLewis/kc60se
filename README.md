@@ -4,21 +4,11 @@
   * Hardware Supported:  KC60 SE by NPKC
   * Keyboard Maintainer: Blake Lewis
 
-  * [KC60 SE PCB is available on Aliexpress](https://www.aliexpress.com/store/product/Free-shipping-GH60-PCB-KC60-SE-Fully-Programmable-For-DIY-Mechanical-Keyboard-Poker-Faceu-HHKB-Support/429151_32799437588.html?spm=2114.12010608.0.0.2995e5c0hNRgMH)
+  * [ I can't find KC60 SE PCB available on Aliexpress anymore. The old link has differnet PCB!](https://www.aliexpress.com/store/product/Free-shipping-GH60-PCB-KC60-SE-Fully-Programmable-For-DIY-Mechanical-Keyboard-Poker-Faceu-HHKB-Support/429151_32799437588.html?spm=2114.12010608.0.0.2995e5c0hNRgMH)
   * [Back](http://i.imgur.com/yrtG6N0.png)
   * [Front](https://i.imgur.com/jw5prK8.jpg)
 
- See [build environment setup](https://docs.qmk.fm/build_environment_setup.html) and [make instructions](https://docs.qmk.fm/make_instructions.html) for more information.
-
- After setting up the QMK build environment, assuming qmk is in qmk_firmware:
-  * ```cd qmk_firmware/keyboards```
-  * ```mkdir kc60se```
-  * ```cd kc60se```
-  * ```git clone git@github.com:BlakeCLewis/kc60se.git .```
-  * or ```git clone https://github.com/BlakeCLewis/kc60se.git .```
-  * ```cd ../../```
-  * ```make kc60se:default```
-  * or ```make kc60se:hhkb_qwerty_fbr```
+ See https://docs.qmk.fm/make_instructions.html for more information.
 
 ## Description:
   * 60% keyboard PCB;
