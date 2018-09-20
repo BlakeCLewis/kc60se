@@ -1,5 +1,6 @@
 # KC60 SE
 ========================
+This code has been merged into QMK_firmware. QMK is a moving target, so this code may not work with current QMK.
 
   * Hardware Supported:  KC60 SE by NPKC
   * Keyboard Maintainer: Blake Lewis
