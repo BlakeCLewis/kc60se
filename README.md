@@ -32,7 +32,8 @@ Hardware Availability: PCB is nolonger available
   * if for some reason that doesn't work, (CAREFUL) while keyboard is plugged in, momentary jump pad 5 to 6 to enter bootloader;
   * flashing the firmware through a USB HUB produced errors. 
 
-## DIP switches enable/disable keys K41 and K4C the second keys from the ends on the bottom row:
+## DIP switches enable/disable keys K41 and K4C:
+  * the second keys from both ends on the bottom row;
   * K41/K4C are usually WIN/GUI and will disrupt your gaming zen;
 
  ```
@@ -44,7 +45,7 @@ Hardware Availability: PCB is nolonger available
   0   0   0   0    both keys disabled
   ```
 
- ### 6 pin SPI header next to the Atmega32u4 can be used to enter the bootloader(momentary short 5 to 6):
+## 6 pin SPI header next to the Atmega32u4 can be used to enter the bootloader(momentary short 5 to 6):
 
   ```
   2 4 6
@@ -59,4 +60,4 @@ Hardware Availability: PCB is nolonger available
   5 - Reset - momentary jump pin 5 to 6 to enter Bootloader
   6 - Ground
   ```
-I think the SPI functionallity can be used to load a bootloader.
+I think the SPI functionallity can be used to load a new bootloader.
