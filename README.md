@@ -2,7 +2,9 @@
 ========================
 
 Author: [Blake C. Lewis](https://github.com/BlakeCLewis)
+
 Hardware Supported: KC60SE
+
 Hardware Availability: PCB is nolonger available
 
 ## Description:
