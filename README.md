@@ -24,9 +24,7 @@ Hardware Availability: PCB is nolonger available
   * if you made changes, press the [down arrow] next to [keyboard.json], saving your updated configuration/json file;
   * https://beta.docs.qmk.fm/newbs/newbs_flashing use QMK Toolbox or dfu-programmer to flash the firmware.
 
-## Technical specifications
-
- ### Enter the Bootloader:
+## Enter the Bootloader:
   * unplug keyboard
   * while holding down 'Space' 'B', plug in USB cable and continue to hold for a few seconds or until leds go off;
   * Linux 'lsusb' should report '03eb:2ff4 Atmel Corp. atmega32u4 DFU bootloader' instead of 'feed 6060';
@@ -34,7 +32,7 @@ Hardware Availability: PCB is nolonger available
   * if for some reason that doesn't work, (CAREFUL) while keyboard is plugged in, momentary jump pad 5 to 6 to enter bootloader;
   * flashing the firmware through a USB HUB produced errors. 
 
- ### DIP switches enable/disable keys K41 and K4C the second keys from the ends on the bottom row:
+## DIP switches enable/disable keys K41 and K4C the second keys from the ends on the bottom row:
   * K41/K4C are usually WIN/GUI and will disrupt your gaming zen;
 
  ```
