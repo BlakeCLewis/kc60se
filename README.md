@@ -1,53 +1,44 @@
-# KC60 SE
+# kc60se json files that can be uploaded to https://config.qmk.fm/
 ========================
-This code has been merged into QMK_firmware. QMK is a moving target, so this code may not work with current QMK.
 
-  * Hardware Supported:  KC60 SE by NPKC
-  * Keyboard Maintainer: Blake Lewis
-
-  * [ I can't find KC60 SE PCB available on Aliexpress anymore. The old link has differnet PCB!](https://www.aliexpress.com/store/product/Free-shipping-GH60-PCB-KC60-SE-Fully-Programmable-For-DIY-Mechanical-Keyboard-Poker-Faceu-HHKB-Support/429151_32799437588.html?spm=2114.12010608.0.0.2995e5c0hNRgMH)
-  * [Back](http://i.imgur.com/yrtG6N0.png)
-  * [Front](https://i.imgur.com/jw5prK8.jpg)
-
- See https://docs.qmk.fm/make_instructions.html for more information.
+Author: [Blake C. Lewis](https://github.com/BlakeCLewis)
+Hardware Supported: KC60SE
+Hardware Availability: PCB is nolonger available
 
 ## Description:
-  * 60% keyboard PCB;
-  * clone of GH60 with minor differences;
-  * supports ANSI, ISO, HHKB, and/or WKL  layouts.
+  * kc60se_all.json
+  * kc60se_ansi.json
+  * kc60se_hhkb.json
+  * kc60se_iso.json
+
+Go to  [https://config.qmk.fm/] https://config.qmk.fm/
+you can upload one of these json files
 
 ## Technical specifications
- ### Column pin configuration:
-  * col 0-13
-  * pin: F0 F1 E6 C7 C6 B6 D4 B1 B7 B5 B4 D7 D6 B3
-   
- ### Row pin configuration:
-  * row 0-4
-  * pin: D0 D1 D2 D3 D5
 
- ### LED pins (found these with Ohm meter):
-  * B2 Capslock LED
-  * F5 Backlight LEDs
-
- ### Unused pins (I can't find anthing connected to these pins):
-  * B0 F4 F6 F7 E2
+ ### Enter the Bootloader:
+  * unplug keyboard
+  * while holding down 'Space' &amp; 'B', plug in USB cable and continue to hold for 8 seconds or until leds go off;
+  * 'lsusb' should report '03eb:2ff4 Atmel Corp. atmega32u4 DFU bootloader' instead of 'feed 6060';
+  * in bootloader LEDs are off &amp; keyboard does not work;
+  * if for some reason that doesn't work, (CAREFUL) while keyboard is plugged in, momentary jump pads 5 &amp; 6 to enter bootloader;
+  * flashing the firmware through a USB HUB did not work consistantly. Most of the time it would finish with errors.
 
  ### DIP switches enable/disable keys K41 and K4C the second keys from the ends on the bottom row:
-  * When there are three keys on each side of the space bar, the middle of each 3 (K41,K4C) are WIN/GUI keys that will pause games, these switches allows you to disable WIN/GUI during games;
-  * default layout is "Win Key Less" (WKL), K41/K4C are LALT/RALT, so I have both dip switches in the ON position;
- ```
-  dip      keys
- #1 #2   K41   K4C
-  1  1    1     1    both keys enabled
-  1  0    0     1   
-  0  1    1     0
-  0  0    0     0    both keys disabled
+  * K41/K4C are WIN/GUI and will disrupt games;
+  * Disabling these 2 gui keys can be done in Command mode without using the switches.
 
  ```
+  dip      keys
+ #1  #2  K41 K4C
+  1   1   1   1    both keys enabled
+  1   0   0   1
+  0   1   1   0
+  0   0   0   0    both keys disabled
+  ```
 
  ### 6 pin header next to the Atmega32u4:
 
-  ![:::](https://i.imgur.com/SGmCW3h.jpg)
   ```
   2 4 6
   : : :
@@ -58,14 +49,6 @@ This code has been merged into QMK_firmware. QMK is a moving target, so this cod
   2 - VCC
   3 - B1    (column 7)
   4 - B2    (capslock led)
-  5 - Reset
-  6 - Ground
+  5 - Reset   | momentary jump 5 and 6
+  6 - Ground  | to enter Bootloader
   ```
-
- ### Enter the Bootloader:
-  * unplug keyboard
-  * while holding down 'Space' &amp; 'B', plug in USB cable and continue to hold for 8 seconds;
-  * 'lsusb'(Linux) should report something like '03eb:2ff4 Atmel Corp. atmega32u4 DFU bootloader' instead of 'feed 6060';
-  * LEDs should be off, and keyboard does not work;
-  * if for some reason that doesn't work, (CAREFUL) while keyboard is plugged in, momentary jump pads 5 &amp; 6 to enter bootloader;
-  * I found that flashing the firmware through a USB hub did not work consistantly. Most of the time it would finish with errors, but keyboard may partially work. If plugged into the computer it flashes with no errors.
