@@ -45,7 +45,8 @@ Hardware Availability: PCB is nolonger available
   0   0   0   0    both keys disabled
   ```
 
-## 6 pin SPI header next to the Atmega32u4 can be used to enter the bootloader(momentary short 5 to 6):
+## 6 pin SPI header next to the Atmega32u4:
+  * can be used to enter the bootloader(momentary short 5 to 6);
 
   ```
   2 4 6
