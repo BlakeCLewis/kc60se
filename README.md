@@ -11,7 +11,11 @@ Hardware Availability: PCB is nolonger available
   * kc60se_all.json (every possible key on the board, not really something you would use. Maybe use it for testing);
   * kc60se_ansi.json (the standard USA layout);
   * kc60se_hhkb.json (Happy Hacker KeyBoard layout, the ultimate layout for 60% keyboards, I have been using an HHKB since 1999);
-  * kc60se_iso.json (the rest of the world standard).  ### not done yet
+  * kc60se_iso.json (US version of the rest of the international standard);
+  * kc60se_ansi_split_bs_rshift.json (HHKB with modifications to function layer);
+  * kc60se_colemak_split_bs_rshift.json (colmak hhkb layout);
+  * kc60se_dvorak_split_bs_rshift.json (dvorak hhkb layout);
+  * kc60se_workman_split_bs_rshift.json (workman hhkb layout).
 
 ## https://config.qmk.fm/
   * Go to https://config.qmk.fm/;
